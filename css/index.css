@@ -1,0 +1,498 @@
+/* pages/fruitGarden/fruitGardenindex/fruitGardenindex.wxss */
+.bigwrap{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    bottom:0;
+    overflow: hidden;
+}
+
+.bigwrapImg{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    bottom:0;
+}
+
+/* 顶部的展示 */
+.garedTop{
+    width: 100%;
+    height: 0.75rem;
+    position: absolute;
+    top:0;
+    left:0;
+}
+
+.garedTopImg{
+    height: 0.75rem;
+    width: 4.17rem;
+    position: absolute;
+    top:0;
+    left:0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.garedTopInfo{
+    width: 4.17rem;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    position: absolute;
+    bottom: 0.06rem;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.garedTopInfoimg{
+    width: 0.39rem;
+    height: 0.39rem;
+    border-radius: 50%;
+    margin-left: 0.23rem;
+}
+
+.garedTopInfoword{
+    font-size:0.24rem;
+    font-family:SourceHanSansCN-Regular;
+    font-weight:400;
+    color:rgba(255,255,255,1);
+    margin-left: 0.31rem;
+}
+/* 中间树 */
+.Treevieo{
+    width: 5.14rem;
+    height: 4.93rem;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+.Treevieoimg{
+    width: 5.14rem;
+    height: 4.93rem;
+    position: absolute;
+    z-index: 555;
+}
+.TreevieoimgNew{
+    width: 3.58rem;
+    height: 4.18rem;
+    position: absolute;
+    top:0;
+    left:0.91rem;
+    z-index: -1;
+}
+
+.progressbox{
+    width: 4.17rem;
+    height: 0.42rem;
+    position:absolute;
+    bottom:-0.14rem;
+    left:0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 23;
+}
+
+.progresstiao{
+    width: 0%;
+    height: 100%;
+    padding: 0.03rem 0.03rem;
+    box-sizing: border-box;
+    z-index: 658;
+    border-radius: 0.3rem;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.progresstiaocon{
+    width: 100%;
+    height: 100%;
+    background-color: #5ec3d3;
+    border-radius: 0.3rem;
+    position: relative;
+    overflow: hidden;
+
+
+}
+
+.progresstiaocondi{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.progresstiaocondi1{
+    width: 0.13rem;
+    height: 0.04rem;
+    border-radius: 0.02rem;
+    background: rgba(255,255,255,0.6);
+    position: absolute;
+    right: 0.23rem;
+    top:0.09rem;
+}
+
+.other{
+   width: 0.35rem;
+    right:0.46rem ;
+}
+
+.progressboxImg{
+    width: 4.17rem;
+    height: 0.42rem;
+    position: absolute;
+    z-index: -1;
+
+}
+
+.progressboxImgwrap{
+    width: 4.17rem;
+    height: 0.42rem;
+    overflow: hidden;
+}
+
+.progressboxImgtext{
+    width: 4.17rem;
+    font-size:0.24rem;
+    font-family:SourceHanSansCN-Regular;
+    font-weight:400;
+    color:rgba(255,255,255,1);
+    position: absolute;
+    top:0.40rem;
+    text-align: center;
+    z-index: 365;
+}
+
+.friendlist{
+    width: 100%;
+    height: 1.35rem;
+    background:rgba(0,0,0,0.3);
+    position: absolute;
+    bottom:0;
+    left:0;
+}
+
+.friendlistScroll{
+    width: auto;
+    display: flex;
+    white-space: nowrap;
+    overflow-x:scroll;
+}
+
+.friendlistitemwrap{
+    display: inline-block;
+}
+
+.friendlistitemwrap:last-child .friendlistitem{
+    margin-right: 0.50rem;
+}
+
+.friendlistitem{
+    width: 0.80rem;
+    height: 1.30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0.40rem;
+
+}
+
+
+.friendlistitemImg{
+    width: 0.83rem;
+    height: 0.83rem;
+    border-radius: 50%;
+}
+
+.friendlistitemword{
+    font-size:0.24rem;
+    font-family:SourceHanSansCN-Medium;
+    font-weight:500;
+    color:rgba(255,255,255,1);
+}
+
+.mygarden{
+    height: 1.79rem;
+    position: absolute;
+    bottom: 1.34rem;
+    left:24rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.mygardenImg{
+    width: 1.17rem;
+    height: 1.27rem;
+    position: absolute;
+    top:0;
+    left:0;
+
+}
+.mygardenwordImg{
+    width: 1.18rem;
+    height: 0.52rem;
+    position: absolute;
+    bottom:0;
+    left:0;
+}
+
+.mygardenword{
+    width: 100%;
+    font-size:0.24rem;
+    font-family:SourceHanSansCN-Regular;
+    font-weight:400;
+    color:rgba(255,255,255,1);
+    position: absolute;
+    bottom:0.16rem;
+    text-align: center;
+
+}
+
+.myshuidi{
+    width: 1.13rem;
+    height: 1.26rem;
+    position: absolute;
+    bottom: 1.34rem;
+    left:0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 1.57rem;
+    margin-left: 0.03rem;
+}
+.myshuidi2{
+    margin-left:1.21rem
+}
+
+.myshuidi3{
+    margin-left:2.43rem;
+}
+
+.myshuihu{
+    height: 1.37rem;
+    position: absolute;
+    bottom: 1.34rem;
+    right: 0.26rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.myshuihuImg{
+    width: 1.20rem;
+    height: 0.94rem;
+    margin-bottom: -0.08rem;
+}
+
+.myshuidiImg{
+    width: 0.70rem;
+    height: 0.84rem;
+}
+
+
+/* 领水的弹框 */
+.getwarter{
+    width: 100%;
+    position: absolute;
+    top:0;
+    bottom:0;
+    background:rgba(0, 0,0, 0.3);
+}
+
+.getwarter_bottom{
+    width: 100%;
+    padding: 0 0.30rem;
+    box-sizing: border-box;
+}
+
+.getwarterWrap{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: #fff;
+}
+
+.getwarter_top{
+    width: 100%;
+    height: 0.76rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 0.30rem;
+    box-sizing: border-box;
+    border-bottom: 0.04rem solid #ebebeb;
+
+
+}
+.getwarter_topWorld{
+    font-size:0.33rem;
+    font-family:SourceHanSansCN-Medium;
+    font-weight:500;
+    color:rgba(102,102,102,1);
+}
+
+.getwarter_topImg{
+    width: 0.30rem;
+    height: 0.30rem;
+}
+.getwarter_bottom1{
+    width: 100%;
+    height: 100%;
+    padding: 0 0.30rem;
+    box-sizing: border-box;
+}
+.getwarter_bottomitem{
+    width: 100%;
+    height: 1.47rem;
+    border-bottom: 0.02rem solid #ebebeb;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.getwarter_bottomitemL{
+    display: flex;
+    align-items: center;
+
+}
+.getwarter_bottomitemLL{
+    width: 1.20rem;
+    height: 1.20rem;
+
+}
+.getwarter_bottomitemLR1{
+    height: 1.47rem;
+    margin-left: 0.42rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.getwarter_bottomitemLR{
+    height: 1.47rem;
+    padding: 0.29rem 0;
+    box-sizing: border-box;
+    margin-left: 0.42rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.getwarter_bottomitemLRT{
+    font-size:0.33rem;
+    font-family:SourceHanSansCN-Medium;
+    font-weight:500;
+    color:rgba(51,51,51,1);
+}
+
+.getwarter_bottomitemLRB{
+    font-size:0.29rem;
+    font-family:SourceHanSansCN-Medium;
+    font-weight:500;
+    color:rgba(102,102,102,1);
+}
+
+.getwarter_bottomitemRbtn{
+    display: inline-block;
+    width:1.25rem;
+    height:0.52rem;
+    background:rgba(138,208,31,1);
+    border-radius:0.10rem;
+    font-size:0.29rem;
+    font-family:SourceHanSansCN-Regular;
+    font-weight:400;
+    color:rgba(255,255,255,1);
+    line-height: 0.52rem;
+    text-align: center;
+}
+
+.lastitem{
+    border-bottom: 0rem;
+}
+
+/* 我的动态 */
+
+.getstateWrap{
+    width:100%;
+    max-height: 65%;
+    position:absolute;
+    bottom:0;
+    left:0;
+    background:#fff;
+}
+
+
+
+.state_bottom{
+    width: 100%;
+    height: auto;
+}
+
+.state_bottomtitle{
+    width: 100%;
+    height: 0.88rem;
+    font-size:0.33rem;
+    font-family:SourceHanSansCN-Medium;
+    font-weight:500;
+    color:rgba(51,51,51,1);
+    line-height: 0.88rem;
+}
+.state_bottomcon{
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.50rem;
+
+}
+
+.state_bottomconImg{
+    width: 1.04rem;
+    height: 1.04rem;
+    border-radius: 50%;
+}
+
+.state_bottomconsay{
+    width: 5.31rem;
+    height: 1.04rem;
+    background:rgba(164,208,176,1);
+    border-radius:0.10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 0.26rem;
+    margin-left: 0.22rem;
+}
+.state_bottomconsayT{
+    font-size:0.31rem;
+    font-family:SourceHanSansCN-Medium;
+    font-weight:500;
+    color:rgba(255,255,255,1);
+
+}
+
+.state_bottomconsayB{
+    font-size:0.25rem;
+    font-family:SourceHanSansCN-Regular;
+    font-weight:400;
+    color:rgba(255,255,255,1);
+}
+
+
+.getwarter_bottom1{
+    overflow-y:scroll;
+}
+
+.getwarter_bottom1::-webkit-scrollbar {/*滚动条整体样式*/
+    width: 0;     /*高宽分别对应横竖滚动条的尺寸*/
+    height: 0;
+}

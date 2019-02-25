@@ -1,0 +1,369 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="divport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="user-scalable=0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/base.css">
+    <script src="js/reset.js"></script>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/index.js"></script>
+    <!--小程序接口-->
+
+    <script src="https://res.wx.qq.com/open/js/jweixin-1.2.0.js" type="text/javascript"></script>
+</head>
+<body>
+<!--pages/fruitGarden/fruitGardenindex/fruitGardenindex.wxml-->
+<div class='bigwrap'>
+
+    <img class='bigwrapImg' src='img/guoyuan/backgroundimg.jpg' mode="scaleToFill">
+
+        <!--顶部提示  -->
+        <div class="garedTop">
+            <img src='img/guoyuan/treepai.png' mode='aspectFit' class='garedTopImg'>
+                <div class='garedTopInfo'>
+                    <img class='garedTopInfoimg' src='http://img0.imgtn.bdimg.com/it/u=4117698333,1699709581&fm=26&gp=0.jpg'>
+                    </img>
+                    <span class='garedTopInfoword'>张三种的苹果正在配送</span>
+                </div>
+            </img>
+        </div>
+
+        <!-- 中间的树 -->
+        <div class='Treevieo'>
+            <img src='img/guoyuan/oldtree.png' mode='aspectFit' class='Treevieoimg'>
+                <img class='TreevieoimgNew' src='img/guoyuan/newtree.png'></img>
+            </img>
+
+            <div class='progressbox'>
+                <div class="progressboxImgwrap">
+                    <img class='progressboxImg' src='img/guoyuan/progress.png' mode='aspectFit'>
+                    <div class="progresstiao">
+                        <div class="progresstiaocon">
+                            <div class="progresstiaocondi">
+                                <span class="progresstiaocondi1"></span>
+                                <span class="progresstiaocondi1 other"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                </img>
+                <span class='progressboxImgtext'>再浇3次水 橙子树就长成大树啦</span>
+
+            </div>
+
+        </div>
+
+
+        <!-- 下面的好友列表 -->
+        <div class='friendlist'>
+            <!--scroll-view-->
+            <div class='friendlistScroll' scroll-x>
+
+                <div class='friendlistitemwrap' bindtap='navnext'>
+                    <div class='friendlistitem'>
+                        <img class='friendlistitemImg' src='http://img0.imgtn.bdimg.com/it/u=4117698333,1699709581&fm=26&gp=0.jpg' mode="aspectFill">
+                        </img>
+                        <span class='friendlistitemword'>豆豆</span>
+                    </div>
+
+                </div>
+
+                <div class='friendlistitemwrap'>
+                    <div class='friendlistitem'>
+                        <img class='friendlistitemImg' src='http://img0.imgtn.bdimg.com/it/u=4117698333,1699709581&fm=26&gp=0.jpg' mode="aspectFill">
+                        </img>
+                        <span class='friendlistitemword'>豆豆</span>
+                    </div>
+
+                </div>
+
+
+                <div class='friendlistitemwrap'>
+                    <div class='friendlistitem'>
+                        <img class='friendlistitemImg' src='http://img0.imgtn.bdimg.com/it/u=4117698333,1699709581&fm=26&gp=0.jpg' mode="aspectFill">
+                        </img>
+                        <span class='friendlistitemword'>豆豆</span>
+                    </div>
+
+                </div>
+
+
+                <div class='friendlistitemwrap'>
+                    <div class='friendlistitem'>
+                        <img class='friendlistitemImg' src='http://img0.imgtn.bdimg.com/it/u=4117698333,1699709581&fm=26&gp=0.jpg' mode="aspectFill">
+                        </img>
+                        <span class='friendlistitemword'>豆豆</span>
+                    </div>
+
+                </div>
+
+                <div class='friendlistitemwrap'>
+                    <div class='friendlistitem'>
+                        <img class='friendlistitemImg' src='http://img0.imgtn.bdimg.com/it/u=4117698333,1699709581&fm=26&gp=0.jpg' mode="aspectFill">
+                        </img>
+                        <span class='friendlistitemword'>豆豆</span>
+                    </div>
+
+                </div>
+
+                <div class='friendlistitemwrap'>
+                    <div class='friendlistitem'>
+                        <img class='friendlistitemImg' src='http://img0.imgtn.bdimg.com/it/u=4117698333,1699709581&fm=26&gp=0.jpg' mode="aspectFill">
+                        </img>
+                        <span class='friendlistitemword'>豆豆</span>
+                    </div>
+
+                </div>
+
+                <div class='friendlistitemwrap'>
+                    <div class='friendlistitem'>
+                        <img class='friendlistitemImg' src='http://img0.imgtn.bdimg.com/it/u=4117698333,1699709581&fm=26&gp=0.jpg' mode="aspectFill">
+                        </img>
+                        <span class='friendlistitemword'>豆豆</span>
+                    </div>
+
+                </div>
+
+                <div class='friendlistitemwrap'>
+                    <div class='friendlistitem'>
+                        <img class='friendlistitemImg' src='http://img0.imgtn.bdimg.com/it/u=4117698333,1699709581&fm=26&gp=0.jpg' mode="aspectFill">
+                        </img>
+                        <span class='friendlistitemword'>豆豆</span>
+                    </div>
+
+                </div>
+
+                <div class='friendlistitemwrap'>
+                    <div class='friendlistitem'>
+                        <img class='friendlistitemImg' src='img/guoyuan/addfriend.png' aspectFill="aspectFill">
+                        </img>
+                        <span class='friendlistitemword'>添加好友</span>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+
+        <!-- 我的果园按钮 -->
+        <div class='myshuidi mystate'>
+            <img class='myshuidiImg' src="img/guoyuan/shuidi.png" mode="aspectFit"></img>
+            <img class='mygardenwordImg' src='img/guoyuan/myshuidi.png'>
+                <span class='mygardenword'>动态</span>
+            </img>
+        </div>
+
+
+        <div class='myshuidi myshuidi2' >
+            <img class='myshuidiImg' src="img/guoyuan/shuidi.png" mode="aspectFit"></img>
+            <img class='mygardenwordImg' src='img/guoyuan/myshuidi.png'>
+                <span class='mygardenword'>领水</span>
+            </img>
+        </div>
+
+        <a href="DrawPrize.html">
+        <div class='myshuidi myshuidi3'>
+            <img class='myshuidiImg' src="img/guoyuan/shuidi.png" mode="aspectFit"></img>
+            <img class='mygardenwordImg' src='img/guoyuan/myshuidi.png'>
+                <span class='mygardenword'>抽大奖</span>
+            </img>
+        </div>
+        </a>
+
+        <div  class='myshuihu' >
+            <img class='myshuihuImg' src="img/guoyuan/shuihu.png" mode="aspectFit"></img>
+            <img class='mygardenwordImg' src='img/guoyuan/myshuihu.png'>
+                <span class='mygardenword'>浇水</span>
+            </img>
+        </div >
+
+
+
+
+
+
+    </img>
+
+    <!-- 领水的弹框 -->
+    <div class='getwarter mygetwatertan' style="display: none">
+        <div class='getwarterWrap'>
+            <div class='getwarter_top'>
+                <span class='getwarter_topWorld'>领水滴任务</span>
+                <img class='getwarter_topImg' src='img/guoyuan/close.png' bindtap='closegetwarter'></img>
+            </div>
+            <div class='getwarter_bottom'>
+                <div class='getwarter_bottomitem'>
+                    <div class='getwarter_bottomitemL'>
+                        <img class='getwarter_bottomitemLL' mode="aspectFit" src="img/guoyuan/getshuidi.png"></img>
+                        <div class='getwarter_bottomitemLR'>
+                            <div class='getwarter_bottomitemLRT'>收集水滴雨</div>
+                            <div class='getwarter_bottomitemLRB'>每天可得50L,每天两次</div>
+                        </div>
+                    </div>
+                    <div class='getwarter_bottomitemR'>
+                        <span class='getwarter_bottomitemRbtn'>去完成</span>
+
+                    </div>
+                </div>
+
+                <div class='getwarter_bottomitem'>
+                    <div class='getwarter_bottomitemL'>
+                        <img class='getwarter_bottomitemLL' mode="aspectFit" src="img/guoyuan/dayfree.png"></img>
+                        <div class='getwarter_bottomitemLR'>
+                            <div class='getwarter_bottomitemLRT'>每日免费领水</div>
+                            <div class='getwarter_bottomitemLRB'>奖励10L-20L,每天5次</div>
+                        </div>
+                    </div>
+                    <div class='getwarter_bottomitemR'>
+                        <span class='getwarter_bottomitemRbtn'>去完成</span>
+
+                    </div>
+                </div>
+
+                <div class='getwarter_bottomitem'>
+                    <div class='getwarter_bottomitemL'>
+                        <img class='getwarter_bottomitemLL' mode="aspectFit" src="img/guoyuan/getwarter3.png"></img>
+                        <div class='getwarter_bottomitemLR1'>
+                            <div class='getwarter_bottomitemLRT'>每日三次开水袋</div>
+                            <div class='getwarter_bottomitemLRB'>7-9点,12-14点,18-21点</div>
+                            <div class='getwarter_bottomitemLRB'>开水袋可得5-60L水</div>
+                        </div>
+                    </div>
+                    <div class='getwarter_bottomitemR'>
+                        <span class='getwarter_bottomitemRbtn'>去完成</span>
+
+                    </div>
+                </div>
+
+
+
+                <div class='getwarter_bottomitem'>
+                    <div class='getwarter_bottomitemL'>
+                        <img class='getwarter_bottomitemLL' mode="aspectFit" src="img/guoyuan/getwarter4.png"></img>
+                        <div class='getwarter_bottomitemLR'>
+                            <div class='getwarter_bottomitemLRT'>浏览商品1分钟</div>
+                            <div class='getwarter_bottomitemLRB'>奖励15L,每天2次</div>
+                        </div>
+                    </div>
+                    <div class='getwarter_bottomitemR'>
+                        <span class='getwarter_bottomitemRbtn'>去完成</span>
+
+                    </div>
+                </div>
+
+                <div class='getwarter_bottomitem lastitem'>
+                    <div class='getwarter_bottomitemL'>
+                        <img class='getwarter_bottomitemLL' mode="aspectFit" src="img/guoyuan/getwarter5.png"></img>
+                        <div class='getwarter_bottomitemLR'>
+                            <div class='getwarter_bottomitemLRT'>任意商品拼单成功</div>
+                            <div class='getwarter_bottomitemLRB'>奖励50L,每天2次</div>
+                        </div>
+                    </div>
+                    <div class='getwarter_bottomitemR'>
+                        <span class='getwarter_bottomitemRbtn'>去完成</span>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- 我的动态 -->
+    <div class='getwarter mystatetan' style="display: none">
+        <div class='getstateWrap'>
+
+            <div class='getwarter_top'>
+                <span class='getwarter_topWorld'>动态</span>
+                <img class='getwarter_topImg' src='img/guoyuan/close.png' bindtap='closegetstate'></img>
+            </div>
+
+            <div class='getwarter_bottomwrap'>
+                <!--scroll-view-->
+                <div class='getwarter_bottom1' scroll-y>
+
+
+                    <!--时间轴  -->
+                    <div class='state_bottom'>
+                        <div class='state_bottomtitle'>12-05</div>
+                        <!-- 每日内容 -->
+                        <div class='state_bottomcon'>
+                            <img class='state_bottomconImg' src='http://img0.imgtn.bdimg.com/it/u=4117698333,1699709581&fm=26&gp=0.jpg' mode="aspectFit"></img>
+                            <div class='state_bottomconsay'>
+                                <div class='state_bottomconsayT'>张三跑来抢走了你的10L水</div>
+                                <div class='state_bottomconsayB'>10:10</div>
+                            </div>
+                        </div>
+
+                        <div class='state_bottomcon'>
+                            <img class='state_bottomconImg' src='http://img0.imgtn.bdimg.com/it/u=4117698333,1699709581&fm=26&gp=0.jpg' mode="aspectFit"></img>
+                            <div class='state_bottomconsay'>
+                                <div class='state_bottomconsayT'>张三跑来抢走了你的10L水</div>
+                                <div class='state_bottomconsayB'>10:10</div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!--时间轴  -->
+                    <div class='state_bottom'>
+                        <div class='state_bottomtitle'>12-05</div>
+                        <!-- 每日内容 -->
+                        <div class='state_bottomcon'>
+                            <img class='state_bottomconImg' src='http://img0.imgtn.bdimg.com/it/u=4117698333,1699709581&fm=26&gp=0.jpg' mode="aspectFit"></img>
+                            <div class='state_bottomconsay'>
+                                <div class='state_bottomconsayT'>张三跑来抢走了你的10L水</div>
+                                <div class='state_bottomconsayB'>10:10</div>
+                            </div>
+                        </div>
+
+                        <div class='state_bottomcon'>
+                            <img class='state_bottomconImg' src='http://img0.imgtn.bdimg.com/it/u=4117698333,1699709581&fm=26&gp=0.jpg' mode="aspectFit"></img>
+                            <div class='state_bottomconsay'>
+                                <div class='state_bottomconsayT'>张三跑来抢走了你的10L水</div>
+                                <div class='state_bottomconsayB'>10:10</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--时间轴  -->
+                    <div class='state_bottom'>
+                        <div class='state_bottomtitle'>12-05</div>
+                        <!-- 每日内容 -->
+                        <div class='state_bottomcon'>
+                            <img class='state_bottomconImg' src='http://img0.imgtn.bdimg.com/it/u=4117698333,1699709581&fm=26&gp=0.jpg' mode="aspectFit"></img>
+                            <div class='state_bottomconsay'>
+                                <div class='state_bottomconsayT'>张三跑来抢走了你的10L水</div>
+                                <div class='state_bottomconsayB'>10:10</div>
+                            </div>
+                        </div>
+
+                        <div class='state_bottomcon'>
+                            <img class='state_bottomconImg' src='http://img0.imgtn.bdimg.com/it/u=4117698333,1699709581&fm=26&gp=0.jpg' mode="aspectFit"></img>
+                            <div class='state_bottomconsay'>
+                                <div class='state_bottomconsayT'>张三跑来抢走了你的10L水</div>
+                                <div class='state_bottomconsayB'>10:10</div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+</div>
+</body>
+</html>
