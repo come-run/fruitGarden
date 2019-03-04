@@ -1,0 +1,190 @@
+.bigbox{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    background: url("../img/guoyuan/backgroundimg.jpg") no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+.zhongcon{
+    width: 73.3%;
+    /*height: 61.88%;*/
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.zhongconwrap{
+    width: 100%;
+    height: 100%;
+}
+
+.zhongconwrap_top{
+    width: 100%;
+    position: relative;
+    top:1rem;
+    left: -0.76rem;
+    z-index: 658;
+
+
+    /*height: 15.53%;*/
+
+}
+.zhongconwrap_topImg{
+    width: 104%;
+    height: 100%;
+    position: relative;
+}
+
+.zhongconwrap_top img{
+    width: 100%;
+    /*position: absolute;*/
+    /*top:0.06rem;*/
+    /*left: -0.76rem;*/
+    /*z-index: 659;*/
+
+}
+
+.zhongconwrap_bottom{
+    width: 100%;
+    height: 100%;
+    position: relative;
+
+}
+
+.zhongconwrap_bottomImg{
+    width: 100%;
+    /*height: 100%;*/
+    /*position: absolute;*/
+    /*top:0;*/
+    /*bottom: 0;*/
+    /*z-index: -1;*/
+
+}
+
+.zhongconwrap_bottomImg img{
+    width: 100%;
+
+}
+
+.zhongconwrap_bottomtitle{
+    width: 70.8%;
+    height: 9.42%;
+}
+
+.zhongconwrap_bottomtitle img{
+   width: 100%;
+
+}
+
+.zhongconwrap_bottomtishi{
+    font-size:0.32rem;
+    font-family:SourceHanSansCN-Regular;
+    font-weight:400;
+    color:rgba(255,255,255,1);
+}
+
+.chooseroot{
+    width: 90%;
+    position: relative;
+}
+
+.chooserootimg{
+    width: 100%;
+}
+
+.chooserootimg img{
+    width: 100%;
+
+}
+
+.okchoose{
+    width: 67.2%;
+    height: 9.27%;
+    position: relative;
+}
+.okchooseImg{
+    width: 100%;
+    height: 100%;
+}
+
+.okchooseImg img{
+    width: 100%;
+    height: 100%;
+}
+
+.zhongconwrap_bottomcon{
+    width: 100%;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    display: flex;
+    padding: 0.74rem 0 0.68rem 0;
+    box-sizing: border-box;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.chooserootbox{
+    width: 100%;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+
+.chooserootboxitem{
+    flex: 0 0 33%;
+    height: 39.71%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.chooserootboxitem img{
+    width: 0.57rem;
+    height: 0.83rem;
+}
+
+.chooserootboxitem_word{
+    display: inline-block;
+    font-size:0.22rem;
+    font-family:SourceHanSansCN-Regular;
+    font-weight:400;
+    color:rgba(255,157,32,1);
+    padding: 0.03rem 0.14rem;
+    box-sizing: border-box;
+    border:2px solid rgba(255,144,0,1);
+    opacity:0.9;
+    border-radius:0.13rem;
+    margin-top: 0.08rem;
+}
+
+.okchooseworld{
+    width: 100%;
+    font-size:0.27rem;
+    font-family:SourceHanSansCN-Medium;
+    font-weight:500;
+    color:rgba(255,145,1,1);
+    position: absolute;
+    top:0;
+    bottom: 0;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.chooserootboxitem_word.onactive{
+    background: rgba(255,145,1,1);
+    color: #ffffff;
+}
