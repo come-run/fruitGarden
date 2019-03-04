@@ -272,7 +272,7 @@ $(function () {
         desc: '每日领水滴，免费水果送到家',
         // 如果是微信该link的域名必须要在微信后台配置的安全域名之内的。
         link: 'https://github.com/fa-ge/NativeShare',
-        icon: '../../favicon.ico',
+        icon: 'https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=1197142301,884753568&fm=26&gp=0.jpg',
         // 不要过于依赖以下两个回调，很多浏览器是不支持的
         success: function() {
             alert('success');
