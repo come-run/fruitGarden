@@ -9,27 +9,40 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/beforindex.css">
     <script src="js/reset.js"></script>
     <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="js/index.js"></script>
+    <!--axios-->
+    <script src="js/axios.min.js"></script>
     <!--小程序接口-->
-
     <script src="https://res.wx.qq.com/open/js/jweixin-1.2.0.js" type="text/javascript"></script>
+    <!--config-->
+    <script src="js/config.js"></script>
+
+    <script src="js/showText.js"></script>
+
+    <script src="js/NativeShare.js"></script>
+
+    <script src="js/index.js"></script>
 </head>
 <body>
 <!--pages/fruitGarden/fruitGardenindex/fruitGardenindex.wxml-->
-<div class='bigwrap'>
+<div class='bigwrap' style="display: none">
 
     <img class='bigwrapImg' src='img/guoyuan/backgroundimg.jpg' mode="scaleToFill">
 
         <!--顶部提示  -->
         <div class="garedTop">
             <img src='img/guoyuan/treepai.png' mode='aspectFit' class='garedTopImg'>
-                <div class='garedTopInfo'>
-                    <img class='garedTopInfoimg' src='http://img0.imgtn.bdimg.com/it/u=4117698333,1699709581&fm=26&gp=0.jpg'>
-                    </img>
-                    <span class='garedTopInfoword'>张三种的苹果正在配送</span>
-                </div>
+                    <div class='garedTopInfo'>
+
+                        <ul>
+
+                        </ul>
+
+                    </div>
+
+
             </img>
         </div>
 
@@ -41,7 +54,7 @@
 
             <div class='progressbox'>
                 <div class="progressboxImgwrap">
-                    <img class='progressboxImg' src='img/guoyuan/progress.png' mode='aspectFit'>
+
                     <div class="progresstiao">
                         <div class="progresstiaocon">
                             <div class="progresstiaocondi">
@@ -53,8 +66,8 @@
                 </div>
 
                 </img>
-                <span class='progressboxImgtext'>再浇3次水 橙子树就长成大树啦</span>
-
+                <span class='progressboxImgtext'></span>
+                <!--再浇3次水 橙子树就长成大树啦-->
             </div>
 
         </div>
@@ -65,79 +78,15 @@
             <!--scroll-view-->
             <div class='friendlistScroll' scroll-x>
 
-                <div class='friendlistitemwrap' bindtap='navnext'>
-                    <div class='friendlistitem'>
-                        <img class='friendlistitemImg' src='http://img0.imgtn.bdimg.com/it/u=4117698333,1699709581&fm=26&gp=0.jpg' mode="aspectFill">
-                        </img>
-                        <span class='friendlistitemword'>豆豆</span>
-                    </div>
+                <!--<div class='friendlistitemwrap' bindtap='navnext'>-->
+                    <!--<div class='friendlistitem'>-->
+                        <!--<img class='friendlistitemImg' src='http://img0.imgtn.bdimg.com/it/u=4117698333,1699709581&fm=26&gp=0.jpg' mode="aspectFill">-->
+                        <!--</img>-->
+                        <!--<span class='friendlistitemword'>豆豆</span>-->
+                    <!--</div>-->
 
-                </div>
+                <!--</div>-->
 
-                <div class='friendlistitemwrap'>
-                    <div class='friendlistitem'>
-                        <img class='friendlistitemImg' src='http://img0.imgtn.bdimg.com/it/u=4117698333,1699709581&fm=26&gp=0.jpg' mode="aspectFill">
-                        </img>
-                        <span class='friendlistitemword'>豆豆</span>
-                    </div>
-
-                </div>
-
-
-                <div class='friendlistitemwrap'>
-                    <div class='friendlistitem'>
-                        <img class='friendlistitemImg' src='http://img0.imgtn.bdimg.com/it/u=4117698333,1699709581&fm=26&gp=0.jpg' mode="aspectFill">
-                        </img>
-                        <span class='friendlistitemword'>豆豆</span>
-                    </div>
-
-                </div>
-
-
-                <div class='friendlistitemwrap'>
-                    <div class='friendlistitem'>
-                        <img class='friendlistitemImg' src='http://img0.imgtn.bdimg.com/it/u=4117698333,1699709581&fm=26&gp=0.jpg' mode="aspectFill">
-                        </img>
-                        <span class='friendlistitemword'>豆豆</span>
-                    </div>
-
-                </div>
-
-                <div class='friendlistitemwrap'>
-                    <div class='friendlistitem'>
-                        <img class='friendlistitemImg' src='http://img0.imgtn.bdimg.com/it/u=4117698333,1699709581&fm=26&gp=0.jpg' mode="aspectFill">
-                        </img>
-                        <span class='friendlistitemword'>豆豆</span>
-                    </div>
-
-                </div>
-
-                <div class='friendlistitemwrap'>
-                    <div class='friendlistitem'>
-                        <img class='friendlistitemImg' src='http://img0.imgtn.bdimg.com/it/u=4117698333,1699709581&fm=26&gp=0.jpg' mode="aspectFill">
-                        </img>
-                        <span class='friendlistitemword'>豆豆</span>
-                    </div>
-
-                </div>
-
-                <div class='friendlistitemwrap'>
-                    <div class='friendlistitem'>
-                        <img class='friendlistitemImg' src='http://img0.imgtn.bdimg.com/it/u=4117698333,1699709581&fm=26&gp=0.jpg' mode="aspectFill">
-                        </img>
-                        <span class='friendlistitemword'>豆豆</span>
-                    </div>
-
-                </div>
-
-                <div class='friendlistitemwrap'>
-                    <div class='friendlistitem'>
-                        <img class='friendlistitemImg' src='http://img0.imgtn.bdimg.com/it/u=4117698333,1699709581&fm=26&gp=0.jpg' mode="aspectFill">
-                        </img>
-                        <span class='friendlistitemword'>豆豆</span>
-                    </div>
-
-                </div>
 
                 <div class='friendlistitemwrap'>
                     <div class='friendlistitem'>
@@ -168,19 +117,22 @@
             </img>
         </div>
 
-        <a href="DrawPrize.html">
+
         <div class='myshuidi myshuidi3'>
             <img class='myshuidiImg' src="img/guoyuan/shuidi.png" mode="aspectFit"></img>
             <img class='mygardenwordImg' src='img/guoyuan/myshuidi.png'>
                 <span class='mygardenword'>抽大奖</span>
             </img>
         </div>
-        </a>
+
 
         <div  class='myshuihu' >
-            <img class='myshuihuImg' src="img/guoyuan/shuihu.png" mode="aspectFit"></img>
+            <div class="myshuihuImgbox">
+                <img class='myshuihuImg' src="img/guoyuan/shuihu.png" mode="aspectFit"></img>
+            </div>
+
             <img class='mygardenwordImg' src='img/guoyuan/myshuihu.png'>
-                <span class='mygardenword'>浇水</span>
+                <span class='mygardenword myshuihuworld'>浇水</span>
             </img>
         </div >
 
@@ -222,7 +174,7 @@
                         </div>
                     </div>
                     <div class='getwarter_bottomitemR'>
-                        <span class='getwarter_bottomitemRbtn'>去完成</span>
+                        <span class='getwarter_bottomitemRbtn daygetwater'>去完成</span>
 
                     </div>
                 </div>
@@ -365,5 +317,80 @@
 
 
 </div>
+
+
+<div class="bigbox" style="display: none">
+    <div class="zhongcon">
+        <div class="zhongconwrap">
+            <div class="zhongconwrap_top">
+                <div class="zhongconwrap_topImg">
+                    <img src="img/guoyuan/start1.png" alt="">
+                </div>
+            </div>
+            <div class="zhongconwrap_bottom">
+                <div class="zhongconwrap_bottomImg">
+                    <img src="img/guoyuan/start2.png" alt="">
+                </div>
+                <div class="zhongconwrap_bottomcon">
+                    <div class="zhongconwrap_bottomtitle">
+                        <img src="img/guoyuan/start3.png" alt="">
+                    </div>
+                    <div class="zhongconwrap_bottomtishi">
+                        成熟后免费送到家
+                    </div>
+
+                    <div class="chooseroot">
+                        <div class="chooserootimg">
+                            <img src="img/guoyuan/start5.png" alt="">
+
+                            <div class="chooserootbox">
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="okchoose">
+                        <div class="okchooseImg">
+                            <img src="img/guoyuan/start4.png" alt="">
+                        </div>
+                        <div class="okchooseworld">立即种植领100L水</div>
+                    </div>
+                </div>
+
+
+
+
+            </div>
+        </div>
+
+
+    </div>
+</div>
 </body>
+<script>
+    //时间戳
+    function timest(){
+        var ts = (new Date()).valueOf();
+        return ts;
+    }
+    //随机字符串
+    function randomWord(randomFlag, min, max){
+        var str = "",
+            range = min,
+            arr = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'];
+        // 随机产生
+        if(randomFlag){
+            range = Math.round(Math.random() * (max-min)) + min;
+        }
+        for(var i=0; i<range; i++){
+            pos = Math.round(Math.random() * (arr.length-1));
+            str += arr[pos];
+        }
+        return str;
+    }
+    //alert(timest());
+    //随机字符串，使用32位
+    //alert(randomWord(false,32));
+</script>
 </html>
